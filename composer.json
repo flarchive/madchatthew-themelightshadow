@@ -1,0 +1,38 @@
+{
+  "name": "madchatthew/flarum-ext-themelightshadow",
+  "description": "Light shadowbox theme",
+  "keywords": [
+    "flarum"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^0.1.0-beta-7"
+  },
+  "authors": [
+    {
+      "name": "Madchatthew",
+      "email": "chad.jessen@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Madchatthew\\ThemeLightShadow\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Theme Light Shadow",
+      "icon": {
+        "image": "resources/icon.png",
+        "backgroundSize": "75%",
+        "backgroundPosition": "center",
+        "backgroundRepeat": "no-repeat"
+      }
+    },
+    "flagrow": {
+      "discuss": ""
+    }
+  }
+}
